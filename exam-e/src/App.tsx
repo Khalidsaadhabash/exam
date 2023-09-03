@@ -11,8 +11,8 @@ function App() {
 const [token, setToken] = useState(localStorage.getItem("userToken")?? null)
   return (
     <>
-    <Nav/>
-    {token ? <Store/> :<Login />}
+    
+    <Store/> :<Login />
      {/* < Cards/> */}
     </>
   )

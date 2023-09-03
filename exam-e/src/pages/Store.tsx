@@ -54,7 +54,7 @@ useEffect(() => {
 <Nav/>
 {prodect.map((item)=>{
     return(
-        <div className='grid grid-row-3 '>
+        <div className='flex justify-center flex-row '>
          
          <Card className="max-w-[24rem] overflow-hidden">
       <CardHeader
